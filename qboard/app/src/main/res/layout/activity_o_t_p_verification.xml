@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/color4"
+    tools:context=".OTPVerification">
+
+    <TextView
+        android:paddingTop="280dp"
+        android:text=" One Step Away From \n The Final Destination"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP/ Verification Code"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:backgroundTint="@android:color/white"
+        android:background="@android:color/white"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="30dp"></EditText>
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/main_activity_button"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="Verify"
+        android:textColor="#fff" />
+
+
+
+</RelativeLayout>

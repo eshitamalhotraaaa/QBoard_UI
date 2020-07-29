@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <!-- This is Collapsed Layout -->
+
+        <RelativeLayout
+            android:id="@+id/layoutCollapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation ="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/collapsed_iv"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_marginTop = "8dp"
+                android:src="@drawable/shield"/>
+
+        </RelativeLayout>
+
+        <!-- This is the expanded Layout-->
+
+        <LinearLayout
+            android:id="@+id/layoutExpanded"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/buttonSimplificationCodingExpanded"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop = "8dp"
+                    android:src="@drawable/shield"
+                    tools:ignore="ContentDescription"/>
+
+                <LinearLayout
+                    android:id="@+id/buttonSimplifiedCoding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Encrypt/Decrypt Text"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:enabled="true" />
+
+                    <EditText
+                        android:id="@+id/encryptedtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Result Text"
+                        android:padding="15dp"
+                        android:inputType="text"
+                        android:enabled="true" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:text="Qboard Encrypt"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:text="Qboard Decrypt"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                    <Button
+                        android:id="@+id/close"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:text="Close Widget"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

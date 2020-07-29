@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    tools:context=".Login">
+
+    <TextView
+        android:paddingTop="130dp"
+        android:text=" Logging In ..."
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="16dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/user"></ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_orange_dark"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="30dp"></EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/lock1"></ImageView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="@android:color/holo_orange_dark"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="30dp"></EditText>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/main_activity_button"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="Log-In"
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:id="@+id/txt_view"
+        android:paddingTop="120dp"
+        android:text="New User? Register Here! "
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="350dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:paddingTop="120dp"
+        android:text="OR"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="310dp"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:paddingTop="120dp"
+        android:text="Sign In Using "
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="280dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/signup_activity_button_red"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="Google"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/signup_activity_button_blue"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="Facebook"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

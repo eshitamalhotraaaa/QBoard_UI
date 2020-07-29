@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">qboard</string>
+    <string name="hyperlink"></string>
+
+    <string-array name="users">
+        <item>Ridhima Bakshi</item>
+        <item>Sara Kapoor</item>
+        <item>Jatin Chawla</item>
+        <item>Abhinay Kumar</item>
+        <item>Aarav Kapoor</item>
+        <item>Shreya Singh</item>
+        <item>Eshita Malhotra</item>
+        <item>Tarini</item>
+        <item>Mehek</item>
+    </string-array>
+
+    <string-array name="description">
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+        <item> My Encrypted Text</item>
+    </string-array>
+</resources>
